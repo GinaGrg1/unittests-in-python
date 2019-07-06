@@ -21,6 +21,7 @@ class BaseTest(TestCase):
     def setUpClass(cls) -> None:
         app.config['SQLALCHEMY_DATABASE_URI'] = BaseTest.SQLALCHEMY_DATABASE_URI
         app.config['DEBUG'] = False
+        app.config['PROPAGATE_EXCEPTIONS'] = True  # Bottle ups the errors expected in tests.
         with app.app_context():  # loads all the app variables.
             db.init_app(app)
 
