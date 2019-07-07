@@ -8,6 +8,7 @@ venv/
 ./.idea/
 *.iml
 *.xml
+.DS_STORE
 
 # Distribution / packaging
 .Python
