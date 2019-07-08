@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/GinaGrg1/unittests-in-python.svg?branch=master)](https://travis-ci.org/GinaGrg1/unittests-in-python)
+
 # unittests-in-python
 
 ## To install nvm
